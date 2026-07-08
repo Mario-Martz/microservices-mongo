@@ -1,0 +1,34 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.zip
+
+# Gradle
+build/
+.gradle/
+gradle-app.toml
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.settings
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Configuraciones locales y credenciales (¡No subir a Git!)
+.env
+application.properties
+application-local.yml
+*.properties
+*.yml
+!application.yml
+!application-default.yml
